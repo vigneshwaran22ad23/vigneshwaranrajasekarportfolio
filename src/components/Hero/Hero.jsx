@@ -100,9 +100,6 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.9, ease: 'easeOut', delay: 0.3 }}
           >
-            <div className="hero-image-dots" />
-            <div className="hero-image-ring-outer" />
-            <div className="hero-image-ring-inner" />
             <div className="hero-photo-frame">
               <div className="hero-photo-glow" />
               <ImageWithFallback

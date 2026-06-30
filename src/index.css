@@ -118,7 +118,7 @@ body.loading { overflow: hidden; }
 
 /* ABOUT */
 .about { background: linear-gradient(180deg, var(--black-1) 0%, var(--black-2) 100%); }
-.about-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: center; }
+.about-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start; }
 .about-image-wrap { position: relative; }
 .about-photo-frame { width: 100%; max-width: 340px; margin: 0 auto; position: relative; }
 .about-photo { width: 100%; border-radius: var(--radius-lg); display: block; object-fit: cover; aspect-ratio: 3/4; }
