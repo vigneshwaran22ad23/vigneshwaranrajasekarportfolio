@@ -38,7 +38,7 @@ export default function Certificates() {
                 <FaCalendarAlt /> {c.date}
               </div>
               <button className="cert-verify-btn">
-                Verify Certificate <FiArrowRight />
+                View certificate <FiArrowRight />
               </button>
             </motion.div>
           ))}
